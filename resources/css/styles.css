@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-color: #ffffee;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+}
+
+section {
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 2px solid #eee;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.color-container, .font-container, .style-container {
+    border: 1px solid #eee;
+}
+
+/* COLORS */
+
+.color-box {
+    width: 250px;
+    height: 100px;
+}
+
+.color-name, .color-hex {
+    text-align: center;
+}
+
+.dark-orange {
+    background-color: darkorange;
+}
+
+.coral {
+    background-color: coral;
+}
+
+.tomato {
+    background-color: tomato;
+}
+
+/* FONTS */
+
+.font-name {
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.roboto {
+    font-family: Roboto;
+}
+
+.source-code-pro {
+    font-family: 'Source Code Pro';
+}
+
+.open-sans {
+    font-family: 'Open Sans';
+}
+
+/* STYLES */
+
+.style-container h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.style-container h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.style-container p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.style-container li {
+    font-family: "Source Code Pro", serif;
+}
+
+/* FOOTER */
+
+footer p {
+    font-size: 12px;
+    text-align: center;
+}
